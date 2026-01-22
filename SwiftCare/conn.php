@@ -14,10 +14,10 @@
 
 // Database configuration
 // LIVE SETTINGS (InfinityFree)
-define('DB_HOST', 'sql100.infinityfree.com'); 
-define('DB_NAME', 'if0_40856171_swiftcare_db');
-define('DB_USER', 'if0_40856171');
-define('DB_PASS', 'Rmq7bxK1s3');
+define('DB_HOST', ''); 
+define('DB_NAME', '');
+define('DB_USER', '');
+define('DB_PASS', '');
 
 // Create database connection
 try {
@@ -31,3 +31,4 @@ try {
 } catch (PDOException $e) {
     die("Database connection failed: " . $e->getMessage());
 }
+
